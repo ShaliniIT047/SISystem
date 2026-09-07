@@ -293,6 +293,7 @@ body.no-animations *, body.no-animations *::before, body.no-animations *::after 
   display: flex; min-height: 100vh;
   opacity: 0; transition: opacity .5s var(--ease);
 }
+.app-shell[hidden] { display: none; }
 .app-shell.is-active { opacity: 1; }
 
 .sidebar-overlay {
